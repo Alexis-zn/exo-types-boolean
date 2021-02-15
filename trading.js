@@ -1,4 +1,4 @@
-let btc = 10000 ;  
+let btc = 40000 ;  
 
 if (btc <= 20000) {
   console.log('you should buy btc')
