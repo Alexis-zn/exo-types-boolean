@@ -8,5 +8,9 @@ let res7 = '1' === 1 && '2' == 2 && '3' === 3 // false
 let res8 = !res7 // true
 let res9 = !res8 // false
 
-console.log(`res1 = ${res1} ; res2 = ${res2} ; res3 = ${res3} ; res4 = ${res4} ; res5 = ${res5} ; 
- res6 = ${res6} ; res7 = ${res7} ; res8 = ${res8} ; res9 = ${res9}`)
+let res = (res1 && res2) || (res3 && res4) || (res5 && res6) || (res7 && res8 && res9)
+//    false           true               false             false
+//           true                ||      true      ||      true 
+
+console.log(res)
+
