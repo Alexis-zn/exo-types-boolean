@@ -9,7 +9,7 @@ let res8 = !res7 // true
 let res9 = !res8 // false
 
 let res = (res1 && res2) || (res3 && res4) || (res5 && res6) || (res7 && res8 && res9)
-//    false           true               false             false
+//            false    ||       true     ||      false       ||        false
 //           true                ||      true      ||      true 
 
 console.log(res)
