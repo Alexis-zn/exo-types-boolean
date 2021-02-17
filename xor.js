@@ -1,4 +1,9 @@
-let a = 2
-let b = 2
+let a = false
+let b = true
 
-  console.log(a ^ b)
+if((a && !b) || (!a && b)) {
+  console.log('TRUE')
+} else {
+  console.log('FALSE')
+}
+  
